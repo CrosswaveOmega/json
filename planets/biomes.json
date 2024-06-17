@@ -43,9 +43,14 @@
 		"name": "Tundra",
 		"description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface."
 	},
+
 	"swamp": {
-		"name": "Swamp",
+		"name": "Dead Swamp",
 		"description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
+	},
+	"rainyjungle": {
+		"name": "Swampy Jungle",
+		"description": "Tall, gnarled trees flourish across the surface of this forested world. Sunlight filters past dangling vines, to the saturated undergrowth below."
 	},
 	"desolate": {
 		"name": "Desolate",
