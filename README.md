@@ -1,6 +1,6 @@
 # json
 
-A set of JSON files for developing applications with Helldivers 2
+A set of JSON files for developing applications with Helldivers 2.  Intended to be updated a bit faster than the parent repo.
 
 ### Goals
 Provide a set of 'static' information like planets, factions and sectors.
@@ -17,7 +17,7 @@ and not have to manually check for updates.
 
 To add this in your own project use the following command:
 ```shell
-git submodule add https://github.com/helldivers-2/json.git <folder>
+git submodule add https://github.com/CrosswaveOmega/json.git <folder>
 
 # Or if you prefer using SSH
 git submodule add git@github.com:helldivers-2/json.git <folder>
