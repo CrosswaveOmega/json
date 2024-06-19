@@ -1631,10 +1631,9 @@
     "64": {
         "name": "Meridia",
         "sector": "Umlaut",
-        "biome": "jungle",
+        "biome": "blackhole",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "none"
         ],
         "names": {
             "en-US": "MERIDIA",

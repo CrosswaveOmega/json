@@ -43,7 +43,14 @@
 		"name": "Tundra",
 		"description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface."
 	},
-
+	"supercolony":{
+		"name": "Supercolony",
+		"description": "Entirely unforeseeable mutations from the Termicide led to hyper-accelerated bug growth on this planet, turning it into a Supercolony. It is corrupted beyond saving. The bugs infest every inch of it, down to the mantle, spawning trillions of spores every day."
+	},
+	"blackhole":{
+		"name": "Black Hole",
+		"description": "The planet is gone, the ultimate price to pay in the war for humanity's survival."
+	},
 	"swamp": {
 		"name": "Dead Swamp",
 		"description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
