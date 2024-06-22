@@ -2,6 +2,8 @@
 
 A set of JSON files for developing applications with Helldivers 2.  Intended to be updated a bit faster than the parent repo.
 
+Presently, the only concern is updating the planet and assignment related JSON files.  Warbonds and items are untouched.
+
 ### Goals
 Provide a set of 'static' information like planets, factions and sectors.
 Applications that need this information (because they map from the API etc.)
@@ -20,7 +22,7 @@ To add this in your own project use the following command:
 git submodule add https://github.com/CrosswaveOmega/json.git <folder>
 
 # Or if you prefer using SSH
-git submodule add git@github.com:helldivers-2/json.git <folder>
+git submodule add git@github.com:CrosswaveOmega/json.git <folder>
 ```
 
 To update the submodule simply run (see [docs](https://git-scm.com/book/en/v2/Git-Tools-Submodules#_pulling_in_upstream_changes_from_the_submodule_remote)):
