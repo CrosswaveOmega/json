@@ -1,12 +1,24 @@
 import json
 import os
+from typing import *
 
 '''
 Utilities for updating the JSON files
 
 '''
 
-def search_json_by_name(file_path, name,field='name'):
+def search_json_by_name(file_path:str, value:Any,field:str='name')->List[Tuple[str,Any]]:
+    """
+    Search for entries in the JSON file with a specified value at a given field.
+
+    Args:
+    - file_path (str): Path to the JSON file.
+    - value (Any): The value to search for.
+    - field (str, optional): The field to search in. Defaults to 'name'.
+
+    Returns:
+    - List[Tuple[str,Any]]: A list of tuple pairs containing the key and the matching entry.
+    """
     matching_entries = []
 
     # Load JSON file
@@ -16,12 +28,25 @@ def search_json_by_name(file_path, name,field='name'):
     # Iterate through each entry in the JSON data
     for key, entry in data.items():
         # Check if 'name' field exists and matches the search string (case insensitive)
-        if field in entry and entry[field].lower() == name.lower():
-            matching_entries.append((key, entry))
+        if field in entry:
+            current=str(entry[field])
+            if current.lower() == value.lower():
+                matching_entries.append((key, entry))
 
     return matching_entries
 
-def update_json_file(file_path, key, updates):
+def update_json_file(file_path:str, key:str, updates:Dict[str,Dict[str,Any]]):
+    """
+    Update fields in the JSON file for a specified key.
+
+    Args:
+    - file_path (str): Path to the JSON file.
+    - key (str): The key for which the updates should be applied.
+    - updates (Dict[str, Dict[str, Any]]): A dictionary where keys are the fields to be updated and values are the new values to set.
+
+    Returns:
+    - None
+    """
     # Load JSON file
     with open(file_path, 'r',encoding='utf8') as f:
         data = json.load(f)
@@ -40,7 +65,7 @@ def update_json_file(file_path, key, updates):
 
 
 
-def load_planets_from_directory(directory_path):
+def load_planets_from_directory(directory_path:str):
     """
     Load all JSON files from the specified directory into a single dictionary.
 
@@ -71,7 +96,14 @@ def load_planets_from_directory(directory_path):
 
     return planets_data
 
+
+
 '''
+file_path = 'hd2json/planets/planets.json'  # Replace with your JSON file path
+tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECUNDUS", "NABATEA SECUNDUS", "CAPH", "FORNSKOGUR II", "IVIS", "BORE ROCK", "CLASA", "KRAKABOS" ]
+for search_string in tosearch:
+    results = search_json_by_name(file_path, search_string)
+    print(results)
 file_path = 'hd2json/planets/planets.json'  # Replace with your JSON file path
 tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECUNDUS", "NABATEA SECUNDUS", "CAPH", "FORNSKOGUR II", "IVIS", "BORE ROCK", "CLASA", "KRAKABOS" ]
 for search_string in tosearch:
@@ -81,7 +113,7 @@ for search_string in tosearch:
     if results:
         print(f"Found {len(results)} matching entries for name '{search_string}':")
         for key, entry in results:
-            
+
             updates = {
                 'biome': 'rainyjungle',
                 'environmentals': ['rainstorms']
@@ -94,3 +126,4 @@ for search_string in tosearch:
     else:
         print(f"No entries found for name '{search_string}'.")
 '''
+

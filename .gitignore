@@ -1,11 +1,5 @@
-/.idea/
-/pdfSourceJRD.html
-/pdfSourceJRD.pdf
-/webHelpJRD2-all.zip
-
-
 # Byte-compiled / optimized / DLL files
-__pycache__/
+__pycache__
 
 .google-cookie
 *.py[cod]
