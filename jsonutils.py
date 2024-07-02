@@ -2,12 +2,15 @@ import json
 import os
 from typing import *
 
-'''
+"""
 Utilities for updating the JSON files
 
-'''
+"""
 
-def search_json_by_name(file_path:str, value:Any,field:str='name')->List[Tuple[str,Any]]:
+
+def search_json_by_name(
+    file_path: str, value: Any, field: str = "name"
+) -> List[Tuple[str, Any]]:
     """
     Search for entries in the JSON file with a specified value at a given field.
 
@@ -22,20 +25,21 @@ def search_json_by_name(file_path:str, value:Any,field:str='name')->List[Tuple[s
     matching_entries = []
 
     # Load JSON file
-    with open(file_path, 'r') as f:
+    with open(file_path, "r") as f:
         data = json.load(f)
 
     # Iterate through each entry in the JSON data
     for key, entry in data.items():
         # Check if 'name' field exists and matches the search string (case insensitive)
         if field in entry:
-            current=str(entry[field])
+            current = str(entry[field])
             if current.lower() == value.lower():
                 matching_entries.append((key, entry))
 
     return matching_entries
 
-def update_json_file(file_path:str, key:str, updates:Dict[str,Dict[str,Any]]):
+
+def update_json_file(file_path: str, key: str, updates: Dict[str, Dict[str, Any]]):
     """
     Update fields in the JSON file for a specified key.
 
@@ -48,7 +52,7 @@ def update_json_file(file_path:str, key:str, updates:Dict[str,Dict[str,Any]]):
     - None
     """
     # Load JSON file
-    with open(file_path, 'r',encoding='utf8') as f:
+    with open(file_path, "r", encoding="utf8") as f:
         data = json.load(f)
 
     # Check if the key exists in the JSON data
@@ -60,12 +64,11 @@ def update_json_file(file_path:str, key:str, updates:Dict[str,Dict[str,Any]]):
         print(f"Key '{key}' not found in the JSON file.")
 
     # Write updated JSON back to the file
-    with open(file_path, 'w',encoding='utf8') as f:
+    with open(file_path, "w", encoding="utf8") as f:
         json.dump(data, f, indent=4)
 
 
-
-def load_planets_from_directory(directory_path:str):
+def load_planets_from_directory(directory_path: str):
     """
     Load all JSON files from the specified directory into a single dictionary.
 
@@ -85,7 +88,7 @@ def load_planets_from_directory(directory_path:str):
     for filename in os.listdir(directory_path):
         if filename.endswith(".json"):
             file_path = os.path.join(directory_path, filename)
-            with open(file_path, 'r',encoding='utf8') as f:
+            with open(file_path, "r", encoding="utf8") as f:
                 try:
                     json_data = json.load(f)
                     # Remove file extension from filename
@@ -97,8 +100,7 @@ def load_planets_from_directory(directory_path:str):
     return planets_data
 
 
-
-'''
+"""
 file_path = 'hd2json/planets/planets.json'  # Replace with your JSON file path
 tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECUNDUS", "NABATEA SECUNDUS", "CAPH", "FORNSKOGUR II", "IVIS", "BORE ROCK", "CLASA", "KRAKABOS" ]
 for search_string in tosearch:
@@ -125,5 +127,4 @@ for search_string in tosearch:
             print("-" * 20)
     else:
         print(f"No entries found for name '{search_string}'.")
-'''
-
+"""
