@@ -106,9 +106,26 @@ tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECU
 for search_string in tosearch:
     results = search_json_by_name(file_path, search_string)
     print(results)
+
 file_path = 'hd2json/planets/planets.json'  # Replace with your JSON file path
-tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECUNDUS", "NABATEA SECUNDUS", "CAPH", "FORNSKOGUR II", "IVIS", "BORE ROCK", "CLASA", "KRAKABOS" ]
-for search_string in tosearch:
+
+to_search=["Nublaria I",
+"Solghast",
+"Atrama",
+"Tarsh",
+"Ratch",
+"Bashyr",
+"Iro",
+"Socorro III",
+"Gar Haren",
+"Khandark",
+"Klaka 5",
+"Merga IV",
+"Setia",
+"Skitter"]
+
+#tosearch=["X-45", "GACRUX", "BARABOS", "ASPEROTH PRIME", "SEASSE", "PHERKAD SECUNDUS", "NABATEA SECUNDUS", "CAPH", "FORNSKOGUR II", "IVIS", "BORE ROCK", "CLASA", "KRAKABOS" ]
+for search_string in to_search:
     results = search_json_by_name(file_path, search_string)
 
     # Print results
@@ -117,8 +134,8 @@ for search_string in tosearch:
         for key, entry in results:
 
             updates = {
-                'biome': 'rainyjungle',
-                'environmentals': ['rainstorms']
+                'biome': 'haunted_swamp',
+                'environmentals': ['thick_fog']
             }
 
             update_json_file(file_path, key, updates)

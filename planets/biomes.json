@@ -55,8 +55,8 @@
 		"name": "Dead Swamp",
 		"description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
 	},
-	"rainyjungle": {
-		"name": "Swampy Jungle",
+	"dense_jungle": {
+		"name": "Dense Jungle",
 		"description": "Tall, gnarled trees flourish across the surface of this forested world. Sunlight filters past dangling vines, to the saturated undergrowth below."
 	},
 	"desolate": {
@@ -78,5 +78,9 @@
 	"toxic": {
 		"name": "Toxic",
 		"description": "Dense, toxic fumes from deep within the planet's crust seep out of cracks in the earth and coat the ground in a sickly haze."
+	},
+	"haunted_swamp":{
+		"name": "Haunted Swamp",
+		"description": "Squelching mud, twisting roots; the odor of rot and anarchy. A teeming, endless morass."
 	}
 }
