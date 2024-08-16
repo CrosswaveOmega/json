@@ -51,12 +51,12 @@
 		"name": "Black Hole",
 		"description": "The planet is gone, the ultimate price to pay in the war for humanity's survival."
 	},
-	"swamp": {
-		"name": "Dead Swamp",
+	"wasteland": {
+		"name": "Wasteland",
 		"description": "The lifeless grey of this planet is interrupted only by the violet flowers that grow from strange, parasitic outcroppings."
 	},
-	"dense_jungle": {
-		"name": "Dense Jungle",
+	"swamp": {
+		"name": "Swamp",
 		"description": "Tall, gnarled trees flourish across the surface of this forested world. Sunlight filters past dangling vines, to the saturated undergrowth below."
 	},
 	"desolate": {

@@ -68,7 +68,7 @@ def update_json_file(file_path: str, key: str, updates: Dict[str, Dict[str, Any]
         json.dump(data, f, indent=4)
 
 
-def load_planets_from_directory(directory_path: str):
+def load_and_merge_json_files(directory_path: str):
     """
     Load all JSON files from the specified directory into a single dictionary.
 
@@ -145,3 +145,30 @@ for search_string in to_search:
     else:
         print(f"No entries found for name '{search_string}'.")
 """
+
+def search_and_replace_in_json(file_path: str, search_string: str, key: str, updates: Dict[str, Any]) -> None:
+    """Get Entries in json that have value search string at field key, 
+    modifying the entry based on the updates dictionary.
+    
+
+    
+    """
+    results: List[Dict[str, Any]] = search_json_by_name(file_path, search_string, key)
+
+    # Print results
+    if results:
+        print(f"Found {len(results)} matching entries for name '{search_string}':")
+        for key, entry in results:
+            update_json_file(file_path, key, updates)
+            print(f"Key: {key}")
+            print(json.dumps(entry, indent=4))
+            print("-" * 20)
+    else:
+        print(f"No entries found for name '{search_string}'.")
+
+
+search_and_replace_in_json('hd2json/planets/planets.json','toxic','biome',{"environmentals":["acid_storms"]})
+
+
+vjson = load_and_merge_json_files("./hd2json/planets/")
+json.dump(vjson, open("allplanet.json", "w"), indent=4)
