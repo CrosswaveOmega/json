@@ -39,15 +39,18 @@ def search_json_by_name(
     return matching_entries
 
 
-def update_json_file(file_path: str, key: str, updates: Dict[str, Dict[str, Any]]):
+def update_json_file(
+    file_path: str, key: str, updates: Dict[str, Dict[str, Any]], over: bool = False
+):
     """
     Update fields in the JSON file for a specified key.
 
     Args:
     - file_path (str): Path to the JSON file.
     - key (str): The key for which the updates should be applied.
-    - updates (Dict[str, Dict[str, Any]]): A dictionary where keys are the fields to be updated and values are the new values to set.
-
+    - updates (Dict[str, Dict[str, Any]]): A dictionary where keys are the fields to be updated
+      and values are the new values to set.
+    - over (bool): if a new entry should be made at key if not present already.
     Returns:
     - None
     """
@@ -61,7 +64,10 @@ def update_json_file(file_path: str, key: str, updates: Dict[str, Dict[str, Any]
         for field, value in updates.items():
             data[key][field] = value
     else:
-        print(f"Key '{key}' not found in the JSON file.")
+        if over:
+            data[key] = updates
+        else:
+            print(f"Key '{key}' not found in the JSON file.")
 
     # Write updated JSON back to the file
     with open(file_path, "w", encoding="utf8") as f:
@@ -146,12 +152,15 @@ for search_string in to_search:
         print(f"No entries found for name '{search_string}'.")
 """
 
-def search_and_replace_in_json(file_path: str, search_string: str, key: str, updates: Dict[str, Any]) -> None:
-    """Get Entries in json that have value search string at field key, 
-    modifying the entry based on the updates dictionary.
-    
 
-    
+def search_and_replace_in_json(
+    file_path: str, search_string: str, key: str, updates: Dict[str, Any]
+) -> None:
+    """Get Entries in json that have value search string at field key,
+    modifying the entry based on the updates dictionary.
+
+
+
     """
     results: List[Dict[str, Any]] = search_json_by_name(file_path, search_string, key)
 
@@ -167,8 +176,36 @@ def search_and_replace_in_json(file_path: str, search_string: str, key: str, upd
         print(f"No entries found for name '{search_string}'.")
 
 
-search_and_replace_in_json('hd2json/planets/planets.json','toxic','biome',{"environmentals":["acid_storms"]})
+# search_and_replace_in_json(
+#     "hd2json/planets/planets.json",
+#     "toxic",
+#     "biome",
+#     {"environmentals": ["acid_storms"]},
+# )
+def add_planet_effect(idval: int, name: str = "none", desc: str = "none"):
+    '''add a new planet effect.'''
+    update_json_file(
+        "hd2json/effects/planetEffects.json",
+        idval,
+        {"galacticEffectId": idval, "name": name, "desc": desc},
+        over=True,
+    )
 
+'''
+add_planet_effect(1177, "black hole", "This planet is a black hole.")
+
+add_planet_effect(
+    1186, "light gloom", "This planet is lightly obscured by a gloom cloud."
+)
+
+add_planet_effect(1187, "gloom", "A gloom cloud enveloped this world.")
+
+add_planet_effect(
+    1188, "heavy gloom", "A thick gloom cloud obscures this world from view."
+)
+
+add_planet_effect(1190, "unreachable", "Our sensors can no longer monitor this planet.")
+'''
 
 vjson = load_and_merge_json_files("./hd2json/planets/")
 json.dump(vjson, open("allplanet.json", "w"), indent=4)
