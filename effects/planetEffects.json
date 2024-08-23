@@ -2,31 +2,26 @@
     "1177": {
         "galacticEffectId": 1177,
         "name": "black hole",
-        "desc": "This planet is a black hole."
+        "description": "This planet is a black hole."
     },
     "1186": {
         "galacticEffectId": 1186,
         "name": "light gloom",
-        "desc": "This planet is lightly obscured by a gloom cloud."
+        "description": "This planet is lightly obscured by a gloom cloud."
     },
     "1187": {
         "galacticEffectId": 1187,
         "name": "gloom",
-        "desc": "A gloom cloud enveloped this world."
+        "description": "A gloom cloud enveloped this world."
     },
     "1188": {
         "galacticEffectId": 1188,
         "name": "heavy gloom",
-        "desc": "A thick gloom cloud obscures this world from view."
+        "description": "A thick gloom cloud obscures this world from view."
     },
     "1190": {
         "galacticEffectId": 1190,
         "name": "unreachable",
-        "desc": "Our sensors can no longer monitor this planet"
-    },
-    "1190": {
-        "galacticEffectId": 1190,
-        "name": "unreachable",
-        "desc": "Our sensors can no longer monitor this planet."
+        "description": "Our sensors can no longer monitor this planet."
     }
 }
