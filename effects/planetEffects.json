@@ -23,5 +23,10 @@
         "galacticEffectId": 1190,
         "name": "unreachable",
         "description": "Our sensors can no longer monitor this planet."
+    },
+    "1193":{
+        "galacticEffectId": 1193,
+        "name": "superheavy gloom",
+        "description": "A very thick gloom cloud obscures this world from view."
     }
 }
