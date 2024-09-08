@@ -183,7 +183,7 @@ def search_and_replace_in_json(
 #     {"environmentals": ["acid_storms"]},
 # )
 def add_planet_effect(idval: int, name: str = "none", desc: str = "none"):
-    '''add a new planet effect.'''
+    """add a new planet effect."""
     update_json_file(
         "hd2json/effects/planetEffects.json",
         idval,
@@ -191,7 +191,8 @@ def add_planet_effect(idval: int, name: str = "none", desc: str = "none"):
         over=True,
     )
 
-'''
+
+"""
 add_planet_effect(1177, "black hole", "This planet is a black hole.")
 
 add_planet_effect(
@@ -205,7 +206,57 @@ add_planet_effect(
 )
 
 add_planet_effect(1190, "unreachable", "Our sensors can no longer monitor this planet.")
-'''
+"""
 
+biome_changes={
+    'mesa':'sandy_base',
+    'toxic':'sandy_acid',
+    'moon':'sandy_moon',
+    'canyon':'sandy_mineral',
+    'desert':'sandy_spiky',
+    'jungle':'primordial_base',
+    'wasteland':'primordial_dead',
+    'ethereal':'primordial_purple',
+    'rainforest':'primordial_blue',
+    'supercolony':'primordial_bug',
+    'winter':'arctic_glacier_base',
+    'icemoss':'arctic_glacier_coldrocky',
+    'highlands':'moor_baseplanet',
+    'tundra':'moor_tundra',
+    'desolate':'moor_arid',
+    'crimsonmoor':'moor_red',
+    'swamp':'swamp_base',
+    'haunted_swamp':'swamp_haunted'
+
+}
+""" 
+with open('hd2json/planets/biomes.json', "r") as f:
+    data = json.load(f)
+for old, new in biome_changes.items():
+    search_and_replace_in_json(
+        "hd2json/planets/planets.json",
+        old,
+        "biome",
+        {"biome": new},
+    )
+    if old in data:
+        last=data.pop(old)
+        last['old_slug']=old
+        data[new]=last
+
+    old = f"{old}"
+    new = f"{new}"
+    image_folder = "assets/allimages"
+
+    old_image_path = os.path.join(image_folder, f"{old}.png")
+    new_image_path = os.path.join(image_folder, f"{new}.png")
+
+    if os.path.exists(old_image_path):
+        os.rename(old_image_path, new_image_path)
+    else:
+        print(f"Image {old}.png not found in {image_folder}.")
+    
+with open('hd2json/planets/biomes.json', "w", encoding="utf8") as f:
+    json.dump(data, f, indent=4) """
 vjson = load_and_merge_json_files("./hd2json/planets/")
 json.dump(vjson, open("allplanet.json", "w"), indent=4)
