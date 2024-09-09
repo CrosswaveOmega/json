@@ -208,26 +208,25 @@ add_planet_effect(
 add_planet_effect(1190, "unreachable", "Our sensors can no longer monitor this planet.")
 """
 
-biome_changes={
-    'mesa':'sandy_base',
-    'toxic':'sandy_acid',
-    'moon':'sandy_moon',
-    'canyon':'sandy_mineral',
-    'desert':'sandy_spiky',
-    'jungle':'primordial_base',
-    'wasteland':'primordial_dead',
-    'ethereal':'primordial_purple',
-    'rainforest':'primordial_blue',
-    'supercolony':'primordial_bug',
-    'winter':'arctic_glacier_base',
-    'icemoss':'arctic_glacier_coldrocky',
-    'highlands':'moor_baseplanet',
-    'tundra':'moor_tundra',
-    'desolate':'moor_arid',
-    'crimsonmoor':'moor_red',
-    'swamp':'swamp_base',
-    'haunted_swamp':'swamp_haunted'
-
+biome_changes = {
+    "mesa": "sandy_base",
+    "toxic": "sandy_acid",
+    "moon": "sandy_moon",
+    "canyon": "sandy_mineral",
+    "desert": "sandy_spiky",
+    "jungle": "primordial_base",
+    "wasteland": "primordial_dead",
+    "ethereal": "primordial_purple",
+    "rainforest": "primordial_blue",
+    "supercolony": "primordial_bug",
+    "winter": "arctic_glacier_base",
+    "icemoss": "arctic_glacier_coldrocky",
+    "highlands": "moor_baseplanet",
+    "tundra": "moor_tundra",
+    "desolate": "moor_arid",
+    "crimsonmoor": "moor_red",
+    "swamp": "swamp_base",
+    "haunted_swamp": "swamp_haunted",
 }
 """ 
 with open('hd2json/planets/biomes.json', "r") as f:
