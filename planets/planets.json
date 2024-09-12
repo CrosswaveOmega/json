@@ -1474,7 +1474,7 @@
     "58": {
         "name": "Parsh",
         "sector": "Rictus",
-        "biome": "arctic_glacier_base",
+        "biome": "swamp_base",
         "environmentals": [
             "extreme_cold",
             "blizzards"
@@ -2568,7 +2568,7 @@
     "101": {
         "name": "East Iridium Trading Bay",
         "sector": "Tarragon",
-        "biome": "primordial_base",
+        "biome": "swamp_base",
         "environmentals": [
             "volcanic_activity",
             "rainstorms"
@@ -4521,7 +4521,7 @@
     "178": {
         "name": "Haldus",
         "sector": "Ferris",
-        "biome": "sandy_moon",
+        "biome": "swamp_base",
         "environmentals": [
             "extreme_cold",
             "meteor_storms"
@@ -6612,7 +6612,7 @@
     "260": {
         "name": "Cyberstan",
         "sector": "Valdis",
-        "biome": "icemoss_special",
+        "biome": "arctic_glacier_coldrocky",
         "environmentals": [
             "tremors"
         ],
