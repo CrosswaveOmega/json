@@ -257,5 +257,5 @@ for old, new in biome_changes.items():
     
 with open('hd2json/planets/biomes.json', "w", encoding="utf8") as f:
     json.dump(data, f, indent=4) """
-vjson = load_and_merge_json_files("./hd2json/planets/")
-json.dump(vjson, open("allplanet.json", "w"), indent=4)
+#vjson = load_and_merge_json_files("./hd2json/planets/")
+#json.dump(vjson, open("allplanet.json", "w"), indent=4)
