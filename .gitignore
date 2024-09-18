@@ -178,6 +178,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
-
+json_generation_scripts/
 settings_table.json
 auto_biome_loader.py

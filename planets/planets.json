@@ -30,6 +30,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -55,7 +56,7 @@
         "sector": "Altus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -107,6 +108,7 @@
         "sector": "Altus",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -133,6 +135,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -158,6 +161,7 @@
         "sector": "Barnard",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -184,6 +188,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -209,6 +214,7 @@
         "sector": "Barnard",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -234,6 +240,7 @@
         "sector": "Barnard",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -259,7 +266,7 @@
         "sector": "Barnard",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "MIDASBURG",
@@ -285,6 +292,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -310,6 +318,7 @@
         "sector": "Cancri",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -386,6 +395,7 @@
         "sector": "Cantolus",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -411,7 +421,7 @@
         "sector": "Orion",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -463,6 +473,7 @@
         "sector": "Idun",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -539,7 +550,7 @@
         "sector": "Kelvin",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "FORT JUSTICE",
@@ -615,8 +626,9 @@
         "sector": "Iptus",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "PRIMORDIA",
@@ -641,7 +653,7 @@
         "sector": "Celeste",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "SULFURA",
@@ -666,6 +678,7 @@
         "sector": "Celeste",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -716,7 +729,7 @@
         "sector": "Korpus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -742,7 +755,7 @@
         "sector": "Korpus",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "CRUCIBLE",
@@ -792,6 +805,7 @@
         "sector": "Barnard",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -818,6 +832,7 @@
         "sector": "Cancri",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -843,7 +858,7 @@
         "sector": "Cancri",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "SEYSHEL BEACH",
@@ -868,6 +883,7 @@
         "sector": "Mirin",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -894,6 +910,7 @@
         "sector": "Cancri",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -919,6 +936,7 @@
         "sector": "Gothmar",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -944,7 +962,7 @@
         "sector": "Gothmar",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "DILUVIA",
@@ -970,6 +988,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -995,7 +1014,7 @@
         "sector": "Cantolus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1022,6 +1041,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -1047,6 +1067,7 @@
         "sector": "Idun",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -1072,6 +1093,7 @@
         "sector": "Kelvin",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -1097,6 +1119,7 @@
         "sector": "Marspira",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1122,7 +1145,7 @@
         "sector": "Marspira",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1149,6 +1172,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -1174,7 +1198,7 @@
         "sector": "Talus",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "SHALLUS",
@@ -1199,6 +1223,7 @@
         "sector": "Iptus",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1224,7 +1249,7 @@
         "sector": "Iptus",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "IRIDICA",
@@ -1249,6 +1274,7 @@
         "sector": "Orion",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -1275,6 +1301,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -1300,6 +1327,7 @@
         "sector": "Celeste",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1325,6 +1353,7 @@
         "sector": "Celeste",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -1351,6 +1380,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -1376,6 +1406,7 @@
         "sector": "Gallux",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -1426,6 +1457,7 @@
         "sector": "Morgon",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -1451,7 +1483,7 @@
         "sector": "Rictus",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "KERTH SECUNDUS",
@@ -1476,8 +1508,8 @@
         "sector": "Rictus",
         "biome": "swamp_base",
         "environmentals": [
-            "extreme_cold",
-            "blizzards"
+            "normal_temp",
+            "rainstorms"
         ],
         "names": {
             "en-US": "PARSH",
@@ -1502,7 +1534,7 @@
         "sector": "Saleria",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -1528,8 +1560,9 @@
         "sector": "Saleria",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "IRULTA",
@@ -1554,7 +1587,7 @@
         "sector": "Meridian",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "EMORATH",
@@ -1579,7 +1612,7 @@
         "sector": "Meridian",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ILDUNA PRIME",
@@ -1604,7 +1637,9 @@
         "sector": "Idun",
         "biome": "moor_arid",
         "environmentals": [
-            "intense_heat"
+            "normal_temp",
+            "intense_heat",
+            "fire_tornadoes"
         ],
         "names": {
             "en-US": "MAW",
@@ -1706,6 +1741,7 @@
         "sector": "Marspira",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -1731,7 +1767,7 @@
         "sector": "Talus",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "SHELT",
@@ -1756,6 +1792,7 @@
         "sector": "Talus",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -1782,6 +1819,7 @@
         "sector": "Gellert",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -1808,6 +1846,7 @@
         "sector": "Iptus",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -1859,6 +1898,7 @@
         "sector": "Iptus",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -1910,6 +1950,7 @@
         "sector": "Falstaff",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -1986,6 +2027,7 @@
         "sector": "Draco",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2037,6 +2079,7 @@
         "sector": "Orion",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2062,8 +2105,9 @@
         "sector": "Korpus",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "ALTA V",
@@ -2088,7 +2132,7 @@
         "sector": "Borgus",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "URSICA XI",
@@ -2138,6 +2182,7 @@
         "sector": "Ursa",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -2164,6 +2209,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -2215,6 +2261,7 @@
         "sector": "Gallux",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -2240,8 +2287,9 @@
         "sector": "Morgon",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "REGNUS",
@@ -2292,6 +2340,7 @@
         "sector": "Rictus",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2317,6 +2366,7 @@
         "sector": "Rictus",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -2393,8 +2443,9 @@
         "sector": "Rictus",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "OASIS",
@@ -2419,6 +2470,7 @@
         "sector": "Rictus",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2445,6 +2497,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -2470,6 +2523,7 @@
         "sector": "Saleria",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -2495,6 +2549,7 @@
         "sector": "Guang",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2545,7 +2600,7 @@
         "sector": "Sten",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "TRANDOR",
@@ -2570,7 +2625,7 @@
         "sector": "Tarragon",
         "biome": "swamp_base",
         "environmentals": [
-            "volcanic_activity",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -2596,6 +2651,7 @@
         "sector": "Meridian",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2621,8 +2677,9 @@
         "sector": "Meridian",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "BALDRICK PRIME",
@@ -2647,7 +2704,7 @@
         "sector": "Theseus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -2673,6 +2730,7 @@
         "sector": "Theseus",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2723,6 +2781,7 @@
         "sector": "Xzar",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -2749,6 +2808,7 @@
         "sector": "Sagan",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -2800,7 +2860,7 @@
         "sector": "Nanos",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "BEKVAM III",
@@ -2825,7 +2885,7 @@
         "sector": "Nanos",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "DUMA TYR",
@@ -2850,6 +2910,7 @@
         "sector": "Hydra",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -2900,7 +2961,7 @@
         "sector": "Valdis",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "AURORA BAY",
@@ -2950,8 +3011,9 @@
         "sector": "Talus",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "GAELLIVARE",
@@ -3002,8 +3064,9 @@
         "sector": "Arturion",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "KIRRIK",
@@ -3029,6 +3092,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3054,6 +3118,7 @@
         "sector": "Arturion",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -3079,6 +3144,7 @@
         "sector": "Arturion",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3105,6 +3171,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3130,6 +3197,7 @@
         "sector": "Falstaff",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -3155,6 +3223,7 @@
         "sector": "Falstaff",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3206,7 +3275,7 @@
         "sector": "Umlaut",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "TURING",
@@ -3231,7 +3300,7 @@
         "sector": "Orion",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ANGEL'S VENTURE",
@@ -3256,6 +3325,7 @@
         "sector": "Borgus",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -3281,7 +3351,7 @@
         "sector": "Jin Xi",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3307,7 +3377,7 @@
         "sector": "Borgus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3333,6 +3403,7 @@
         "sector": "Borgus",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3358,6 +3429,7 @@
         "sector": "Ursa",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -3408,7 +3480,7 @@
         "sector": "Gallux",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ACUBENS PRIME",
@@ -3433,6 +3505,7 @@
         "sector": "Gallux",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -3459,7 +3532,7 @@
         "sector": "Gallux",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3510,6 +3583,7 @@
         "sector": "Hanzo",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -3535,7 +3609,7 @@
         "sector": "Hanzo",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ALAMAK VII",
@@ -3611,7 +3685,7 @@
         "sector": "Akira",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ANDAR",
@@ -3636,6 +3710,7 @@
         "sector": "Akira",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3661,7 +3736,7 @@
         "sector": "Guang",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3687,6 +3762,7 @@
         "sector": "Guang",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -3713,6 +3789,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -3738,6 +3815,7 @@
         "sector": "Tarragon",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -3763,7 +3841,7 @@
         "sector": "Tarragon",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "BUNDA SECUNDUS",
@@ -3789,6 +3867,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3814,6 +3893,7 @@
         "sector": "Theseus",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3839,6 +3919,7 @@
         "sector": "Theseus",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -3865,6 +3946,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -3890,7 +3972,7 @@
         "sector": "Xzar",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -3941,6 +4023,7 @@
         "sector": "Xzar",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -3966,6 +4049,7 @@
         "sector": "Andromeda",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -3991,7 +4075,8 @@
         "sector": "Andromeda",
         "biome": "moor_red",
         "environmentals": [
-            "intense_heat"
+            "normal_temp",
+            "ion_storms"
         ],
         "names": {
             "en-US": "CHARON PRIME",
@@ -4042,6 +4127,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -4067,6 +4153,7 @@
         "sector": "Lacaille",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -4118,6 +4205,7 @@
         "sector": "Tanis",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -4143,7 +4231,7 @@
         "sector": "Tanis",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "DEMIURG",
@@ -4193,7 +4281,7 @@
         "sector": "Arturion",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -4219,6 +4307,7 @@
         "sector": "L'estrade",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -4271,6 +4360,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -4321,6 +4411,7 @@
         "sector": "Draco",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -4346,6 +4437,7 @@
         "sector": "Jin Xi",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -4371,6 +4463,7 @@
         "sector": "Jin Xi",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -4396,6 +4489,7 @@
         "sector": "Jin Xi",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -4421,6 +4515,7 @@
         "sector": "Ursa",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -4446,6 +4541,7 @@
         "sector": "Farsight",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -4523,8 +4619,8 @@
         "sector": "Ferris",
         "biome": "swamp_base",
         "environmentals": [
-            "extreme_cold",
-            "meteor_storms"
+            "normal_temp",
+            "rainstorms"
         ],
         "names": {
             "en-US": "HALDUS",
@@ -4574,6 +4670,7 @@
         "sector": "Ferris",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -4627,6 +4724,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -4652,7 +4750,7 @@
         "sector": "Rigel",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -4679,6 +4777,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -4704,6 +4803,7 @@
         "sector": "Omega",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -4731,6 +4831,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -4756,6 +4857,7 @@
         "sector": "Guang",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -4781,6 +4883,7 @@
         "sector": "Alstrad",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -4806,6 +4909,7 @@
         "sector": "Alstrad",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -4832,6 +4936,7 @@
         "sector": "Alstrad",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -4857,6 +4962,7 @@
         "sector": "Hawking",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -4883,6 +4989,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -4908,6 +5015,7 @@
         "sector": "Quintus",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -4984,6 +5092,7 @@
         "sector": "Severin",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -5009,8 +5118,9 @@
         "sector": "Xzar",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "MANTES",
@@ -5061,7 +5171,7 @@
         "sector": "Andromeda",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "MARTALE",
@@ -5086,6 +5196,7 @@
         "sector": "Andromeda",
         "biome": "moor_baseplanet",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5111,8 +5222,9 @@
         "sector": "Ymir",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "MEISSA",
@@ -5137,7 +5249,8 @@
         "sector": "Valdis",
         "biome": "sandy_mineral",
         "environmentals": [
-            "extreme_cold"
+            "normal_temp",
+            "tremors"
         ],
         "names": {
             "en-US": "MEKBUDA",
@@ -5162,6 +5275,7 @@
         "sector": "Hydra",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -5188,8 +5302,8 @@
         "sector": "Valdis",
         "biome": "primordial_blue",
         "environmentals": [
-            "intense_heat",
-            "acid_storms"
+            "normal_temp",
+            "ion_storms"
         ],
         "names": {
             "en-US": "MERAK",
@@ -5214,6 +5328,7 @@
         "sector": "Valdis",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -5239,6 +5354,7 @@
         "sector": "Gellert",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -5264,7 +5380,7 @@
         "sector": "Gellert",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5290,7 +5406,7 @@
         "sector": "Hawking",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "MORDIA 9",
@@ -5315,6 +5431,7 @@
         "sector": "L'estrade",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5340,8 +5457,9 @@
         "sector": "L'estrade",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "NAVI VII",
@@ -5391,7 +5509,7 @@
         "sector": "Mirin",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5417,6 +5535,7 @@
         "sector": "Sten",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -5467,6 +5586,7 @@
         "sector": "Sten",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -5493,6 +5613,7 @@
         "sector": "Sten",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -5519,6 +5640,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -5544,6 +5666,7 @@
         "sector": "Farsight",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5570,6 +5693,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -5595,8 +5719,9 @@
         "sector": "Farsight",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "POLLUX 31",
@@ -5621,6 +5746,7 @@
         "sector": "Farsight",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -5647,6 +5773,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -5672,7 +5799,7 @@
         "sector": "Leo",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "RAS ALGETHI",
@@ -5723,8 +5850,9 @@
         "sector": "Rigel",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "ROGUE 5",
@@ -5749,6 +5877,7 @@
         "sector": "Rigel",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -5774,6 +5903,7 @@
         "sector": "Omega",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -5799,6 +5929,7 @@
         "sector": "Omega",
         "biome": "sandy_mineral",
         "environmentals": [
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -5824,6 +5955,7 @@
         "sector": "Omega",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -5849,6 +5981,7 @@
         "sector": "Xi Tauri",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -5874,6 +6007,7 @@
         "sector": "Xi Tauri",
         "biome": "primordial_blue",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -5950,8 +6084,9 @@
         "sector": "Quintus",
         "biome": "primordial_base",
         "environmentals": [
-            "volcanic_activity",
-            "rainstorms"
+            "normal_temp",
+            "rainstorms",
+            "volcanic_activity"
         ],
         "names": {
             "en-US": "SPHERION",
@@ -6001,6 +6136,7 @@
         "sector": "Quintus",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -6026,7 +6162,7 @@
         "sector": "Quintus",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -6052,7 +6188,7 @@
         "sector": "Severin",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "TIBIT",
@@ -6128,6 +6264,7 @@
         "sector": "Severin",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -6154,6 +6291,7 @@
         "biome": "sandy_spiky",
         "environmentals": [
             "intense_heat",
+            "normal_temp",
             "tremors"
         ],
         "names": {
@@ -6205,7 +6343,7 @@
         "sector": "Trigon",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -6231,6 +6369,7 @@
         "sector": "Ymir",
         "biome": "sandy_acid",
         "environmentals": [
+            "normal_temp",
             "acid_storms"
         ],
         "names": {
@@ -6282,6 +6421,7 @@
         "sector": "Ymir",
         "biome": "moor_arid",
         "environmentals": [
+            "normal_temp",
             "intense_heat",
             "fire_tornadoes"
         ],
@@ -6308,7 +6448,7 @@
         "sector": "Valdis",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "VINDEMITARIX PRIME",
@@ -6333,6 +6473,7 @@
         "sector": "Ymir",
         "biome": "swamp_base",
         "environmentals": [
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -6358,6 +6499,7 @@
         "sector": "Tanis",
         "biome": "moor_red",
         "environmentals": [
+            "normal_temp",
             "ion_storms"
         ],
         "names": {
@@ -6383,7 +6525,7 @@
         "sector": "Tanis",
         "biome": "primordial_purple",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "ZEFIA",
@@ -6435,6 +6577,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -6460,6 +6603,7 @@
         "sector": "Hawking",
         "biome": "swamp_haunted",
         "environmentals": [
+            "normal_temp",
             "thick_fog"
         ],
         "names": {
@@ -6512,6 +6656,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -6537,7 +6682,7 @@
         "sector": "L'estrade",
         "biome": "moor_baseplanet",
         "environmentals": [
-            "thick_fog",
+            "normal_temp",
             "rainstorms"
         ],
         "names": {
@@ -6564,6 +6709,7 @@
         "biome": "sandy_base",
         "environmentals": [
             "intense_heat",
+            "extreme_cold",
             "sandstorms"
         ],
         "names": {
@@ -6589,7 +6735,7 @@
         "sector": "L'estrade",
         "biome": "moor_tundra",
         "environmentals": [
-            "none"
+            "normal_temp"
         ],
         "names": {
             "en-US": "OMICRON",
@@ -6614,7 +6760,7 @@
         "sector": "Valdis",
         "biome": "arctic_glacier_coldrocky",
         "environmentals": [
-            "tremors"
+            "extreme_cold"
         ],
         "names": {
             "en-US": "CYBERSTAN",
