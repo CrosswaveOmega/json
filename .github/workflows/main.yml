@@ -1,0 +1,30 @@
+name: Release JSON Files
+
+on:
+  push:
+    tags:
+      - 'v*'   # Triggers the workflow when pushing tags that start with 'v' (e.g., v1.0.0)
+
+jobs:
+  package-json-files:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout the code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js (if needed for any reason)
+      uses: actions/setup-node@v3
+      with:
+        node-version: '16.x'
+
+    - name: Package all JSON files into a zip
+      run: |
+        zip -r json-files.zip **/*.json
+
+    - name: Create a GitHub release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: json-files.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # This is automatically provided by GitHub Actions
