@@ -1,14 +1,21 @@
 # json
 
-A set of JSON files for developing applications with Helldivers 2.  Intended to be updated a bit faster than the parent repo.
+A set of JSON files for developing applications with Helldivers 2.  
+Intended to be updated a bit faster than the parent repo.
 
 Presently, the only concern is updating the planet and assignment related JSON files.  Warbonds and items are untouched.
+
 
 ### Goals
 Provide a set of 'static' information like planets, factions and sectors.
 Applications that need this information (because they map from the API etc.)
 can pull this data into their application and whenever new data is discovered and added
 they can simply update this repository and get the updated information.
+
+### Changes from parent repo
+* The key of each planet's biome is based on the region names from https://github.com/shalzuth/HelldiversData
+* Supercolony and Black Hole are considered biome types.
+* Enviornmentals have an additional "Normal Temperature" type.
 
 ### How to use
 While you can simply download the JSON files and use them directly
