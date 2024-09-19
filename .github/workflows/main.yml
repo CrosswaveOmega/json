@@ -16,14 +16,30 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '16.x'
+    - name: Generate a new tag
+      id: create_tag
+      run: |
+        # Get the current date and time for the tag (or modify this as needed)
+        TAG_NAME="v$(date +'%Y%m%d%H%M%S')"
+        echo "Tagging with $TAG_NAME"
+
+        # Create and push the tag
+        git tag "$TAG_NAME"
+        git push origin "$TAG_NAME"
+
+        # Export the tag name for use in the next steps
+        echo "::set-output name=tag::$TAG_NAME"
 
     - name: Package all JSON files into a zip
       run: |
         zip -r json-files.zip **/*.json
 
+    
+
     - name: Create a GitHub release
       uses: softprops/action-gh-release@v1
       with:
+        tag_name: ${{ steps.create_tag.outputs.tag }}  # Use the tag created in the previous step
         files: json-files.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # This is automatically provided by GitHub Actions
