@@ -44,5 +44,10 @@
         "galacticEffectId": 1197,
         "name": "Xenoentomology Center",
         "description":"Those who study Terminid behavior, ecology and E-710 potential gather here for cross-disciplinary research."
+    },
+    "1198":{
+        "galacticEffectId": 1198,
+        "name": "Deep Mantle Forge Complex",
+        "description":"The smelters and refineries on this planet turn crude materials into usable hardware."
     }
 }
