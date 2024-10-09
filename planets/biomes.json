@@ -17,7 +17,7 @@
     },
     "sandy_base": {
         "name": "Rolling Dunes [Sandy]",
-        "description": "A blazing-hot desert planet, it's rocky mesas are the sole interruptions to the endless sea of dunes.",
+        "description": "A blazing-hot desert planet, its rocky mesas are the sole interruptions to the endless sea of dunes.",
         "old_slug": "mesa"
     },
     "sandy_acid": {
@@ -37,7 +37,7 @@
     },
     "sandy_spiky": {
         "name": "Mesa Desert [Sandy]",
-        "description": "A desert planet prone to unpredictable and dangerous,sand twisters.",
+        "description": "A desert planet prone to unpredictable and dangerous sand twisters.",
         "old_slug": "desert"
     },
     "primordial_base": {
@@ -82,7 +82,7 @@
     },
     "moor_tundra": {
         "name": "Tundra [Moor]",
-        "description": "A perenially chilly climate has allowed short, colourful shrubs to flourish across this planet's surface.",
+        "description": "A perennially chilly climate has allowed short, colorful shrubs to flourish across this planet's surface.",
         "old_slug": "tundra"
     },
     "moor_arid": {
