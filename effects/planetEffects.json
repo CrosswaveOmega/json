@@ -49,5 +49,21 @@
         "galacticEffectId": 1198,
         "name": "Deep Mantle Forge Complex",
         "description":"The smelters and refineries on this planet turn crude materials into usable hardware."
+    },
+    "1199":{
+        "galacticEffectId": 1199,
+        "name": "DSS Construction Site- Phase 2",
+        "description": "Democracy Space Station construction is well underway. The local economy is flourishing as the planet’s populace has centupled, and all the Galaxy can feel their democratic fervor."
+    },
+    "1202":{
+        "galacticEffectId": 1202,
+        "name":"THE JET BRIGADE",
+        "describing":"The Automatons have deployed a new series of specialized models on this planet. These upgraded bots utilize stolen Jump Pack technology, heartlessly pillaged from the bodies of fallen Helldivers and reverse-engineered into something nearly unrecognizeable."
+    },
+    "1203":{
+        "galacticEffectId": 1203,
+        "name":"THE JET BRIGADE 2",
+        "describing":"The Automatons have deployed a new series of specialized models on this planet. These upgraded bots utilize stolen Jump Pack technology, heartlessly pillaged from the bodies of fallen Helldivers and reverse-engineered into something nearly unrecognizeable."
     }
+    
 }
