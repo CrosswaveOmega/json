@@ -183,5 +183,11 @@
 		"galacticEffectId": 1282,
 		"name": "HELLDIVER TRAINING FACILITIES",
 		"description": "Here, the best of the best go through the rigorous Helldiver training that will earn them their capes."
-	}
+	},
+	"1286": {
+		"galacticEffectId": 1286,
+		"name": "NEW HOPE CONSTRUCTION SITE",
+		"description": "One of 3 Maximum Security Cities is under construction here."
+	},
+	
 }
