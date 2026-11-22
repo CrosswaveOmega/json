@@ -2835,7 +2835,9 @@
 	},
 	"99": {
 		"name": "Alderidge Cove",
-		"sector": "Guang",
+		"sector": "Omega",
+		"planet_name_history":["Alderidge Cove","Sangis"],
+		"sector_history":["Guang","Omega"],
 		"biome": "deciduous_autumn",
 		"environmentals": [
 			"none"
@@ -2859,7 +2861,7 @@
 		"type": "forest",
 		"weather_effects": [
 			"normal_temp"
-		]
+		]		
 	},
 	"100": {
 		"name": "Trandor",
@@ -7719,7 +7721,9 @@
 	},
 	"273": {
 		"name": "Sangis",
-		"sector": "Omega",
+		"sector": "Guang",
+		"planet_name_history":["Sangis","Alderidge Cove"],
+		"sector_history":["Omega","Guang"],
 		"biome": "primordial_dead",
 		"environmentals": [
 			"none"
